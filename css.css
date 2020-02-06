@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+}
+
+.myProgress {
+  width: 30px;
+  height: 50vh; 
+  background-color: #4CAF50;
+  margin: 10px;
+}
+
+.myBar {
+  width: 30px;
+  height: 100%;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#Bar1{
+  float: right;
+}
+

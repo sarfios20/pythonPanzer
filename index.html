@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web PythonPanzer</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- Enlace a JQuery -->
+	<script src="keydrown.js"></script>
+	<script src="js.js"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<h1>Welcome to the future.</h1>
+<p>This is the webpage for the PythonPanzer Project. Feel free to try out our product.</p>
+<div class="container">
+	<div id="Progress0" class="myProgress">
+		<div class="myBar" id="Bar0">0%</div>
+	</div>
+	<div id="Progress1" class="myProgress">
+		<div class="myBar" id="Bar1">0%</div>
+	</div>
+</div>
+<button onclick="reset()">reset</button>
+<div id="botones" class="container">
+	<button onclick="cambiar(this)" disabled="true">keyboard</button>
+	<button onclick="cambiar(this)">controller</button>
+	<button onclick="destruir(this)">destruir</button>
+</div>
+</body>
+</html>
